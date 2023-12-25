@@ -8,15 +8,14 @@
 //% color="#AA278D" weight=100
 namespace hello {  // ez jelenik meg a menüben
     //% block
-    export function helloWorld() {  // ez lesz ez első blokk utasítás
-
+    export function helloWorld() {  
     }
 
     // note that Caml casing yields lower case
     // block text with spaces
 
     //% block
-    export function camlCaseTwo() {  // ez lesz ez második utasítás
+    export function camlCaseTwo() { 
 
     }
 }

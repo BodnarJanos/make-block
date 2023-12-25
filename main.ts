@@ -5,17 +5,18 @@
  * generated for an **exported** function.
  */
 
-//% color="#AA278D" weight=1
-namespace hello {  // ez jelenik meg a menüben
+//% color="#AA278D" weight=100
+namespace hello {
     //% block
-    export function helloWorld() {  
+    export function helloWorld() {
+
     }
 
     // note that Caml casing yields lower case
     // block text with spaces
 
     //% block
-    export function camlCaseTwo() { 
+    export function camlCaseTwo() {
 
     }
 }

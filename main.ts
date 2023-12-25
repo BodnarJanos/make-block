@@ -6,7 +6,7 @@
  * the element using the browser's debugger
  */
 
-//% color="#ff0000" icon="\uf0a5"
+//% color="#ff0000" icon="\uf0a9"
 namespace color {
 
     //% block

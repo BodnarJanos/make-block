@@ -5,10 +5,10 @@
  * generated for an **exported** function.
  */
 
-//% color="#AA278D" weight=100
-namespace hello {
+//% color="#AA278D" weight=1000
+namespace hello {  // ez jelenik meg a menüben
     //% block
-    export function helloWorld() {
+    export function helloWorld() {  // ez lesz ez első blokk utasítás
 
     }
 
@@ -16,7 +16,7 @@ namespace hello {
     // block text with spaces
 
     //% block
-    export function camlCaseTwo() {
+    export function camlCaseTwo() {  // ez lesz ez második utasítás
 
     }
 }

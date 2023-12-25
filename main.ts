@@ -5,7 +5,7 @@
  * generated for an **exported** function.
  */
 
-//% color="#AA278D" weight=100
+//% color="#22278D" weight=100
 namespace hello {
     //% block
     export function helloWorld() {

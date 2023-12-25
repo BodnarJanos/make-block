@@ -5,7 +5,7 @@
  * generated for an **exported** function.
  */
 
-//% color="#AA278D" weight=100
+//% color="#AA278D" weight=1
 namespace hello {  // ez jelenik meg a menüben
     //% block
     export function helloWorld() {  

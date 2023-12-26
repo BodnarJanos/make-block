@@ -3,32 +3,32 @@
  */
 
 //% color="#AA278D"
-//% groups="['Fruits', 'Veggies']"
-namespace food {
+//% groups="['plant', 'Veggies']"
+namespace wjano {
     //% block
-    //% group="Veggies"
+    //% group="plant"
     export function potato() {
 
     }
 
     //% block
-    //% group="Veggies"
+    //% group="plant"
     export function bean() {
 
     }
 
     //% block
-    //% group="Fruits"
+    //% group="plant"
     export function apple() {
 
     }
 
     //% block
-    //% group="Fruits"
+    //% group="plant"
     export function banana() {
 
     }
-}
+
 
 /**
  * Set the color of a namespace (block category) by setting
@@ -127,3 +127,4 @@ namespace hello {
     }
 }
 
+}

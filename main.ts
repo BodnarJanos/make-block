@@ -3,7 +3,7 @@
  */
 
 //% color="#AA278D"
-//icon="\uf0a9"
+//% icon="\uf0a9"
 //% groups="['ordering', 'plant', 'hello', 'formatting', 'default', 'namspacecolor']"
 namespace wjano {
  
@@ -18,7 +18,7 @@ namespace wjano {
     }
  
     /**
-     * Thi block go on top
+     * This block go on top
      */
     //% block
     //% group = "ordering"

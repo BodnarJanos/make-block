@@ -4,14 +4,37 @@
 
 //% color="#AA278D"
 //icon="\uf0a9"
-//% groups="['plant', 'hello', 'formatting', 'default', 'namspacecolor']"
+//% groups="['ordering', 'plant', 'hello', 'formatting', 'default', 'namspacecolor']"
 namespace wjano {
+ 
+    /**
+     * This block goes to bottom
+     */
+    //% block
+    //% group = "ordering"
+    //% weight = 50
+    export function second(){
+
+    }
+ 
+    /**
+     * Thi block go on top
+     */
+    //% block
+    //% group = "ordering"
+    //% wight = 100
+    export function first() {
+
+    }
+
+
+
     //% block
     //% group="plant"
     export function potato() {
 
     }
-    //% color="#112233"
+
     //% block
     //% group="plant"
     export function bean() {

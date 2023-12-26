@@ -4,9 +4,42 @@
 
 //% color="#AA278D"
 //% icon="\uf0a9"
-//% groups="['ordering', 'plant', 'hello', 'formatting', 'default', 'namspacecolor']"
+//% groups="['type of blocks' , 'ordering', 'plant', 'hello', 'formatting', 'default', 'namspacecolor']"
 namespace wjano {
  
+    //% block
+    //% group="type of blocks"
+    export function show(){
+
+    }
+
+    //% block
+    //% group="type of blocks"
+    export function move(steps: number){
+
+    }
+
+    //% block
+    //% groups="type of blocks"
+    export function randomNumber(): number{
+        return 0;
+    }
+
+    //% block
+    //% groups="type of blocks"
+    export function randomBoolean(): boolean{
+        return false;
+    }
+
+    //block
+    //% group="type of blocks"
+    export function onEvent(handler:()=>void){
+        
+    }
+
+
+
+
     //% block
     //% group="ordering"
     //% weight = 50

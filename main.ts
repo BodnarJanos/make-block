@@ -8,11 +8,10 @@
 namespace wjano {
     //% block
     //% group="plant"
-    //% color="#112233"
     export function potato() {
 
     }
-
+    //% color="#112233"
     //% block
     //% group="plant"
     export function bean() {

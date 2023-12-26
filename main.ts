@@ -7,9 +7,6 @@
 //% groups="['ordering', 'plant', 'hello', 'formatting', 'default', 'namspacecolor']"
 namespace wjano {
  
-    /**
-     * This block goes to bottom
-     */
     //% block
     //% group = "ordering"
     //% weight = 50
@@ -17,9 +14,6 @@ namespace wjano {
 
     }
  
-    /**
-     * This block go on top
-     */
     //% block
     //% group = "ordering"
     //% wight = 100

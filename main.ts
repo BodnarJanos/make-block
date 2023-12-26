@@ -8,15 +8,15 @@
 namespace wjano {
  
     //% block
-    //% group = "ordering"
+    //% group="ordering"
     //% weight = 50
     export function second(){
 
     }
  
     //% block
-    //% group = "ordering"
-    //% wight = 100
+    //% group="ordering"
+    //% wight=100
     export function first() {
 
     }

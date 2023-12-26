@@ -8,7 +8,6 @@
 namespace wjano {
     //% block
     //% group="plant"
-    //%color = "#123456"
     export function potato() {
 
     }

@@ -111,7 +111,7 @@ namespace wjano {
     }
 
     //% block="shuffled text = $text x = $x"
-    //% group = "formatting"
+    //% group="formatting"
     export function shuffled(x: number, text: string) {
 
     }

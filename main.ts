@@ -3,7 +3,7 @@
  */
 
 //% color="#AA278D"
-//% color="#ff0000" icon="\uf0a9"
+//icon="\uf0a9"
 //% groups="['plant', 'hello', 'formatting', 'default', 'namspacecolor']"
 namespace wjano {
     //% block
@@ -31,13 +31,13 @@ namespace wjano {
     }
 
 
-/**
- * Set the color of a namespace (block category) by setting
- * the color attribute annotation on the namespace. Icons
- * are drawn from https://semantic-ui.com/elements/icon.html
- * To find the Unicode representation of an icon, inspect
- * the element using the browser's debugger
- */
+    /**
+     * Set the color of a namespace (block category) by setting
+     * the color attribute annotation on the namespace. Icons
+     * are drawn from https://semantic-ui.com/elements/icon.html
+     * To find the Unicode representation of an icon, inspect
+     * the element using the browser's debugger
+     */
 
 
 
@@ -62,12 +62,12 @@ namespace wjano {
 
 
 
-/**
- * Use the VARIABLE.defl=VALUE notation to specify
- * default argument values.
- */
+    /**
+     * Use the VARIABLE.defl=VALUE notation to specify
+     * default argument values.
+     */
 
-//% color="#BB288D"
+    //% color="#BB288D"
 
     //% block
     //% x.defl=42
@@ -83,13 +83,13 @@ namespace wjano {
 
     }
 
-/**
- * For better readability, you should rewrite the function
- * signature in a "natural language" way. You can refer to
- * each variable in any order using the $VARIABLE syntax.
- */
+    /**
+     * For better readability, you should rewrite the function
+     * signature in a "natural language" way. You can refer to
+     * each variable in any order using the $VARIABLE syntax.
+     */
 
-//% color="#AA278D" wight=100
+    //% color="#AA278D" wight=100
 
     //% block="fooooooo"
     //% group = "formatting"
@@ -110,14 +110,14 @@ namespace wjano {
     }
 
 
-/**
- * Functions are mapped to blocks using various macros
- * in comments starting with %. The most important macro
- * is "block", and it specifies that a block should be
- * generated for an **exported** function.
- */
+    /**
+     * Functions are mapped to blocks using various macros
+     * in comments starting with %. The most important macro
+     * is "block", and it specifies that a block should be
+     * generated for an **exported** function.
+     */
 
-//% color="#800000" weight=100
+    //% color="#800000" weight=100
 
     //% block
     //% group="hello"

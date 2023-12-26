@@ -33,7 +33,7 @@ namespace wjano {
 
     //block="on event"
     //% group="type of blocks"
-    export function onEvent(handler:()=>void){
+    export function onEvent(handler: () => void) {
         
     }
 

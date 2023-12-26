@@ -31,7 +31,7 @@ namespace wjano {
         return false;
     }
 
-    //block
+    //block="on event"
     //% group="type of blocks"
     export function onEvent(handler:()=>void){
         

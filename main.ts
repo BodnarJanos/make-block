@@ -26,7 +26,7 @@ namespace wjano {
     }
 
     //% block
-    //% groups="type of blocks"
+    //% group="type of blocks"
     export function randomBoolean(): boolean{
         return false;
     }

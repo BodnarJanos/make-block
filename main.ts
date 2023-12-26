@@ -3,7 +3,8 @@
  */
 
 //% color="#AA278D"
-//% groups="['plant', 'Veggies']"
+//% color="#ff0000" icon="\uf0a9"
+//% groups="['plant', 'hello', 'formatting', 'default', 'namspacecolor']"
 namespace wjano {
     //% block
     //% group="plant"
@@ -38,24 +39,27 @@ namespace wjano {
  * the element using the browser's debugger
  */
 
-//% color="#ff0000" icon="\uf0a9"
-namespace color {
+
+
 
     //% block
+    //% group="hello"
     export function foo() {
 
     }
 
     //% block
+    //% group="hello"
     export function foo1() {
 
     }
 
     //% block
+    //% group="hello"
     export function foo2() {
 
     }
-}
+
 
 
 /**
@@ -64,20 +68,20 @@ namespace color {
  */
 
 //% color="#BB288D"
-namespace test {
+
     //% block
     //% x.defl=42
-    export function foo(x: number) {
+    //% group="test"
+    export function foo4(x: number) {
 
     }
 
     //% block
     //% s.defl="hi!"
+    //% group="test"
     export function bar(s: string) {
 
     }
-}
-
 
 /**
  * For better readability, you should rewrite the function
@@ -86,23 +90,25 @@ namespace test {
  */
 
 //% color="#AA278D" wight=100
-namespace formatting {
 
     //% block="fooooooo"
-    export function foo() {
+    //% group = "formatting"
+    export function foo5() {
 
     }
 
     //% block="bar x = $x text = $text"
-    export function bar(x: number, text: string) {
+    //% group="formatting"
+    export function bar1(x: number, text: string) {
 
     }
 
     //% block="shuffled text = $text x = $x"
+    //% group = "formatting"
     export function shuffled(x: number, text: string) {
 
     }
-}
+
 
 /**
  * Functions are mapped to blocks using various macros
@@ -112,8 +118,9 @@ namespace formatting {
  */
 
 //% color="#800000" weight=100
-namespace hello {
+
     //% block
+    //% group="hello"
     export function helloWorld() {
 
     }
@@ -122,9 +129,10 @@ namespace hello {
     // block text with spaces
 
     //% block
+    //% group="hello"
     export function camlCaseTwo() {
 
     }
 }
 
-}
+

@@ -39,25 +39,19 @@ namespace wjano {
      * the element using the browser's debugger
      */
 
-
-
-
     //% block
     //% group="hello"
     export function foo() {
-
     }
 
     //% block
     //% group="hello"
     export function foo1() {
-
     }
 
     //% block
     //% group="hello"
     export function foo2() {
-
     }
 
 
@@ -66,8 +60,6 @@ namespace wjano {
      * Use the VARIABLE.defl=VALUE notation to specify
      * default argument values.
      */
-
-    //% color="#BB288D"
 
     //% block
     //% x.defl=42
@@ -88,8 +80,6 @@ namespace wjano {
      * signature in a "natural language" way. You can refer to
      * each variable in any order using the $VARIABLE syntax.
      */
-
-    //% color="#AA278D" wight=100
 
     //% block="fooooooo"
     //% group = "formatting"
@@ -116,9 +106,7 @@ namespace wjano {
      * is "block", and it specifies that a block should be
      * generated for an **exported** function.
      */
-
-    //% color="#800000" weight=100
-
+    
     //% block
     //% group="hello"
     export function helloWorld() {

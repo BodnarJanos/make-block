@@ -1,10 +1,3 @@
-/**
- * Organize your blocks in groups
- */
-
-//% color="#AA278D"
-//% icon="\uf0a9"
-//% groups="['type of blocks' , 'ordering', 'plant', 'hello', 'formatting', 'default', 'namspacecolor']"
 namespace wjano {
  
     //% block
@@ -172,5 +165,3 @@ namespace wjano {
 
     }
 }
-
-
